@@ -1,6 +1,6 @@
 # SPH0645 I2S MEMS Microphone to .wav file using ESP32
 
-This code help users to record sound
+This code help users to record sound and dump into SD card, later use ffmpeg and batch script to format into WAV
 
 ## Prerequisite
 
@@ -24,7 +24,7 @@ This code help users to record sound
 
 ## Usage
 
-![Usage1](../I2S_MIC_recorder/picture/usage_1.png)
+![Usage1](https://github.com/william0503tw/I2S_MIC_recorder/blob/main/picture/usage_1.png)
 
 1. Continue outputing 's' means in "stand by mode", waiting for start command 'a' input.
 
@@ -40,4 +40,4 @@ This code help users to record sound
 
 ## Know Issue
 
-- [ ] 2023/07/27 recording result sounds slightly faster, maybe due to mismatch of sample rate cause by SD card write time. 
+- [ ] 2023/07/27 Recording result sounds slightly faster, maybe due to mismatch of sample rate cause by SD card write time. 
