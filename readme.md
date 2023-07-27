@@ -40,6 +40,6 @@ This code help users to record sound and dump into SD card, later use ffmpeg and
 
 6. File would be format into wav file with timestamp
 
-## Know Issue
+## Known Issue
 
 - [ ] 2023/07/27 Recording result sounds slightly faster, maybe due to mismatch of sample rate cause by SD card write time. 
