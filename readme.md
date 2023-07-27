@@ -24,18 +24,19 @@ This code help users to record sound and dump into SD card, later use ffmpeg and
 
 ## Usage
 
-> Screen shot of serial monitor (BUADRATE: 115200)
 ![Usage1](https://github.com/william0503tw/I2S_MIC_recorder/blob/main/picture/usage_1.png)
 
-1. Continue outputing 's' means in "stand by mode", waiting for start command 'a' input.
+> Screen shot of serial monitor (BUADRATE: 115200)
 
-2. Enter file name
+1. Continue outputing ``'s'`` means in "stand by mode", waiting for start command ``'a'`` input.
 
-3. Enter recording time
+2. Enter ``file name``
 
-4. Insert SD Card into PC
+3. Enter ``recording time (sec)`` 
 
-5. Run "i2s_to_wav.bat" in folder where .i2s file locates (etc. SD Card)
+4. Wait for ``*** DONE WRITING ***`` shows up and insert SD Card into PC
+
+5. Run ``i2s_to_wav.bat`` in folder where .i2s file locates (etc. SD Card)
 
 6. File would be format into wav file with timestamp
 
