@@ -68,10 +68,9 @@ void loop(){
   f = SD.open(String("/" + filename + ".i2s"), FILE_WRITE);
 
   if(!f){
-    Serial.println("Failed");
+    Serial.println("Failed : Remember to inset SD card");
     while(1);
   }
-
 
   // ---- Recoed second ----
   Serial.print("Enter Record time second: ");
@@ -104,6 +103,7 @@ void loop(){
     if (totalBytesRead >= bytesToRead) {
       f.close();
       Serial.println("**** DONE WRITING ****");
+      Serial.print('\n');
       listDir(SD, "/", 0);
       Serial.println("");
       break;
