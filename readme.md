@@ -24,6 +24,7 @@ This code help users to record sound and dump into SD card, later use ffmpeg and
 
 ## Usage
 
+> Screen shot of serial monitor (BUADRATE: 115200)
 ![Usage1](https://github.com/william0503tw/I2S_MIC_recorder/blob/main/picture/usage_1.png)
 
 1. Continue outputing 's' means in "stand by mode", waiting for start command 'a' input.
